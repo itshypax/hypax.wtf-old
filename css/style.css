@@ -67,11 +67,11 @@ footer {
     padding: 5px 0;
     background-color: rgba(0, 0, 0, 0.25);
     color: #99AAB5;
-    min-width: 99%;
-    max-width: 100%;
+    min-width: 95%;
+    max-width: 95%;
     margin: 0 auto;
     margin-top: 20px;
-    border-radius: 15px;
+    border-radius: 0;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
