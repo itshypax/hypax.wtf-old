@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
+html {
+    height: 100%;
+}
+
 body {
-    background-image: url("../images/webbg.jpg");
+    background-image: linear-gradient(to right bottom, #05eff0, #00cbf1, #00a5eb, #007cda, #0051b8, #4740a9, #622a96, #74007f, #950082, #b50082, #d30080, #ef017b);
     background-repeat: no-repeat;
     background-size: cover;
     color: #FFF;
     font-family: "Rajdhani", sans-serif;
     background-position: fixed;
     overflow: hidden;
+    width: 100%;
 }
 
 p {
@@ -36,22 +41,22 @@ p {
             animation: fadein 2s;
 }
 
-.social {
+/*.social {
     position: absolute;
     right: 5%;
     bottom: 10%;
     font-size: 5ex;
 
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
+    -webkit-animation: fadein 2s; 
+       -moz-animation: fadein 2s; 
+        -ms-animation: fadein 2s; 
+         -o-animation: fadein 2s; 
             animation: fadein 2s;
 }
 
 i {
     margin: 0 10px;
-}
+}*/
 
 a:hover, a:active {
     color: #05eff0;
@@ -67,8 +72,9 @@ footer {
     padding: 5px 0;
     background-color: rgba(0, 0, 0, 0.25);
     color: #99AAB5;
-    min-width: 95%;
+    min-width: 5%;
     max-width: 95%;
+    width: 95%;
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 0;
@@ -132,7 +138,7 @@ footer > a:hover {
     width: 80px;
     height: 80px;
     margin: -75px 0 0 -75px;
-    border: 16px solid #410078;
+    border: 16px solid rgba(0,0,0,0);
     border-radius: 50%;
     border-top: 16px solid #05eff0;
     width: 120px;
