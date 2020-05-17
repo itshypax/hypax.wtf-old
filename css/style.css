@@ -41,16 +41,6 @@ p {
             animation: fadein 2s;
 }
 
-a:hover, a:active {
-    color: #05eff0;
-    transition: color 1s ease;
-}
-
-a {
-    color: #fff;
-}
-
-
 footer {
     text-align: center;
     padding: 5px 0;
@@ -72,10 +62,12 @@ footer {
 
 footer > a {
     color: #99AAB5;
+    text-decoration: none;
 }
 
 footer > a:hover {
     color: #05eff0;
+    text-decoration: none;
 }
 
 
