@@ -41,25 +41,9 @@ p {
             animation: fadein 2s;
 }
 
-/*.social {
-    position: absolute;
-    right: 5%;
-    bottom: 10%;
-    font-size: 5ex;
-
-    -webkit-animation: fadein 2s; 
-       -moz-animation: fadein 2s; 
-        -ms-animation: fadein 2s; 
-         -o-animation: fadein 2s; 
-            animation: fadein 2s;
-}
-
-i {
-    margin: 0 10px;
-}*/
-
 a:hover, a:active {
     color: #05eff0;
+    transition: color 1s ease;
 }
 
 a {
