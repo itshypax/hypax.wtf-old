@@ -12,10 +12,6 @@ div>a:hover {
     transition: font-weight .1s ease;
 }
 
-div>a>i {
-    /*visibility: hidden;*/
-}
-
 div>a:hover>i {
     visibility: visible;
 }
