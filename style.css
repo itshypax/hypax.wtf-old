@@ -11,7 +11,3 @@ div>a:hover {
     font-weight: bold;
     transition: font-weight .1s ease;
 }
-
-div>a:hover>i {
-    visibility: visible;
-}
