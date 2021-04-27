@@ -1,0 +1,21 @@
+#1 ---- Prevent listing
+
+
+
+IndexIgnore *
+Options -Indexes
+
+
+
+#2 ---- Without extension
+
+
+
+Options +MultiViews
+
+
+#3 ---- Force https
+
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
