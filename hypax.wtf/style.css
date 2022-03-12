@@ -6,8 +6,20 @@ body {
     background-repeat: no-repeat;
 }
 
+* {
+    transition: .2s ease;
+}
+
 div>a:hover {
     color: #9147ff;
-    font-weight: bold;
-    transition: font-weight .1s ease;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
 }
