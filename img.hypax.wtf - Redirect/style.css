@@ -1,0 +1,13 @@
+body {
+    background-image: url(web_bg_purple_8k.png);
+    background-color: #18181b;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div>a:hover {
+    color: #9147ff;
+    font-weight: bold;
+    transition: font-weight .1s ease;
+}
